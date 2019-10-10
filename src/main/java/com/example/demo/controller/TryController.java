@@ -11,6 +11,6 @@ public class TryController {
 
 	@GetMapping("/tryDemo")
 	public String tryDemo(){
-		return "给你demo啊！";
+		return "给你demo啊！!";
 	}
 }
