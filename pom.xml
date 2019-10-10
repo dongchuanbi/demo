@@ -29,6 +29,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!--SpringBoot框架web项目起步依赖，通过该依赖自动关联其它依赖，
+        不需要我们一个个去配置了-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
 	</dependencies>
 
 	<build>
